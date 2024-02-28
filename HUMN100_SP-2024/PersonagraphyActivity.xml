@@ -16,7 +16,7 @@
       <body>
          <div><listPerson><person><persName>Dylan Lange, June 1, 2004 Indio, California Bucknell Student</persName> <affiliation cert="high" evidence="internal" instant="unknown" xml:space="default">Volleyball</affiliation>, <affiliation cert="high" evidence="internal" instant="unknown" type="Club" xml:space="default">ACM</affiliation>, Tea Cl<affiliation cert="high" evidence="internal" instant="unknown" type="Club" xml:space="default"/>ub, <affiliation cert="high" evidence="internal" instant="unknown" type="Greek Organization" xml:space="default">SAE</affiliation></person></listPerson><p>I have 15 cats</p>
          </div>
-         <div><listPerson><listPerson><person><persName>Nikita, Bityutskiy</persName> <birth/></person></listPerson></listPerson><date>02/02/2005 </date><listPerson><person><birth><placeName>PLACE</placeName> </birth> <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation> <affiliation>GROUP I'M A PART OF</affiliation> </person> </listPerson><p>FUN FACT</p>
+         <div><listPerson><listPerson><person><persName>Nikita, Bityutskiy</persName> <birth/></person></listPerson></listPerson><date>02/02/2005 </date><listPerson><person><birth><placeName>Tashkent, Uzbekistan</placeName> </birth><occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation> <affiliation>GROUP I'M A PART OF</affiliation> </person> </listPerson><p>FUN FACT</p>
          </div>
          <div>
             <listPerson>
