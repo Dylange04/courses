@@ -16,7 +16,7 @@
       <body>
          <div><listPerson><listPerson><person><persName>Dylan Lange</persName> <birth/></person></listPerson></listPerson><listPerson><person><birth><placeName>Indio,California</placeName> Computer Science</birth></person></listPerson><p>I have 15 cats</p>
          </div>
-         <div><listPerson><listPerson><person><persName>Nikita, Bityutskiy</persName> </person></listPerson></listPerson><listPerson><person><birth><placeName>Tashkent, Uzbekistan</placeName> Computer Science &amp; Engineering/American Politics, Men's Swim and Dive</birth></person></listPerson><p>FUN FACT</p>
+         <div><listPerson><listPerson><person><persName>Nikita, Bityutskiy</persName> </person></listPerson></listPerson><listPerson><person><birth><placeName>Tashkent, Uzbekistan</placeName> &amp;lt;occupation&amp;gt;Computer Science &amp; Engineering/American Politics, Men's Swim and Dive</birth></person></listPerson><p>FUN FACT</p>
          </div>
          <div>
             <listPerson>
