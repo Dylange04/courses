@@ -14,9 +14,9 @@
 <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
    <text>
       <body>
-         <div><listPerson><listPerson><person><persName>Dylan Lange</persName> <birth/></person></listPerson></listPerson><date>06/01/2004 </date><listPerson><person><birth><placeName>Indio,California</placeName> Computer Science</birth></person></listPerson><p>I have 15 cats</p>
+         <div><listPerson><listPerson><person><persName>Dylan Lange</persName> <birth/></person></listPerson></listPerson><listPerson><person><birth><placeName>Indio,California</placeName> Computer Science</birth></person></listPerson><p>I have 15 cats</p>
          </div>
-         <div><listPerson><listPerson><person><persName>Nikita, Bityutskiy</persName> <birth/></person></listPerson></listPerson><date>02/02/2005 </date><listPerson><person><birth><placeName>Tashkent, Uzbekistan</placeName> Computer Science &amp; Engineering/American Politics, Men's Swim and Dive</birth></person></listPerson><p>FUN FACT</p>
+         <div><listPerson><listPerson><person><persName>Nikita, Bityutskiy</persName> <birth/></person></listPerson></listPerson><listPerson><person><birth><placeName>Tashkent, Uzbekistan</placeName> Computer Science &amp; Engineering/American Politics, Men's Swim and Dive</birth></person></listPerson><p>FUN FACT</p>
          </div>
          <div>
             <listPerson>
