@@ -936,10 +936,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Dylange04/courses/main/HUMN100_SP-2024/congress_letter_exercise.xml?organization_annotation_20240303192417252",
+	"id": "https://raw.githubusercontent.com/Dylange04/courses/main/HUMN100_SP-2024/congress_letter_exercise.xml?person_annotation_20240303192438178",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-03-04T00:24:17.252Z",
-	"dcterms:modified": "2024-03-04T00:24:17.252Z",
+	"dcterms:created": "2024-03-04T00:24:38.178Z",
+	"dcterms:modified": "2024-03-04T00:24:38.178Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/Dylange04",
 		"@type": [
@@ -950,7 +950,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Dylange04/courses/main/HUMN100_SP-2024/congress_letter_exercise.xml?organization_annotation_20240303192417252#Target",
+		"@id": "https://raw.githubusercontent.com/Dylange04/courses/main/HUMN100_SP-2024/congress_letter_exercise.xml?person_annotation_20240303192438178#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/Dylange04/courses/main/HUMN100_SP-2024/congress_letter_exercise.xml",
@@ -964,13 +964,92 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Dylange04/courses/main/HUMN100_SP-2024/congress_letter_exercise.xml?organization_annotation_20240303192417252#Selector",
+			"@id": "https://raw.githubusercontent.com/Dylange04/courses/main/HUMN100_SP-2024/congress_letter_exercise.xml?person_annotation_20240303192438178#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/closer/orgName"
+			"rdf:value": "TEI/text/body/div/closer/persName[3]"
 		}
 	},
 	"oa:hasBody": {
-		"@type": "org:Organization",
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/12041742/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Dylange04/courses/main/HUMN100_SP-2024/congress_letter_exercise.xml?person_annotation_20240303192527742",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-04T00:25:27.742Z",
+	"dcterms:modified": "2024-03-04T00:25:27.742Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Dylange04",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dylan Lange"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Dylange04/courses/main/HUMN100_SP-2024/congress_letter_exercise.xml?person_annotation_20240303192527742#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Dylange04/courses/main/HUMN100_SP-2024/congress_letter_exercise.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Dylange04/courses/main/HUMN100_SP-2024/congress_letter_exercise.xml?person_annotation_20240303192527742#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/closer/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
 		"@id": "http://www.wikidata.org/entity/Q13390410",
 		"dc:format": "text/plain"
 	},
@@ -1015,10 +1094,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/Dylange04/courses/main/HUMN100_SP-2024/congress_letter_exercise.xml?person_annotation_20240303192438178",
+	"id": "https://raw.githubusercontent.com/Dylange04/courses/main/HUMN100_SP-2024/congress_letter_exercise.xml?person_annotation_20240303192540816",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-03-04T00:24:38.178Z",
-	"dcterms:modified": "2024-03-04T00:24:38.178Z",
+	"dcterms:created": "2024-03-04T00:25:40.816Z",
+	"dcterms:modified": "2024-03-04T00:25:40.816Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/Dylange04",
 		"@type": [
@@ -1029,7 +1108,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/Dylange04/courses/main/HUMN100_SP-2024/congress_letter_exercise.xml?person_annotation_20240303192438178#Target",
+		"@id": "https://raw.githubusercontent.com/Dylange04/courses/main/HUMN100_SP-2024/congress_letter_exercise.xml?person_annotation_20240303192540816#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/Dylange04/courses/main/HUMN100_SP-2024/congress_letter_exercise.xml",
@@ -1043,14 +1122,172 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/Dylange04/courses/main/HUMN100_SP-2024/congress_letter_exercise.xml?person_annotation_20240303192438178#Selector",
+			"@id": "https://raw.githubusercontent.com/Dylange04/courses/main/HUMN100_SP-2024/congress_letter_exercise.xml?person_annotation_20240303192540816#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/closer/persName[2]"
+			"rdf:value": "TEI/text/body/div/closer/persName[4]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/12041742/",
+		"@id": "http://www.wikidata.org/entity/Q7088941",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Dylange04/courses/main/HUMN100_SP-2024/congress_letter_exercise.xml?person_annotation_20240303192557440",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-04T00:25:57.440Z",
+	"dcterms:modified": "2024-03-04T00:25:57.440Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Dylange04",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dylan Lange"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Dylange04/courses/main/HUMN100_SP-2024/congress_letter_exercise.xml?person_annotation_20240303192557440#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Dylange04/courses/main/HUMN100_SP-2024/congress_letter_exercise.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Dylange04/courses/main/HUMN100_SP-2024/congress_letter_exercise.xml?person_annotation_20240303192557440#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/closer/persName[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q192245",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Dylange04/courses/main/HUMN100_SP-2024/congress_letter_exercise.xml?person_annotation_20240303192617162",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-04T00:26:17.162Z",
+	"dcterms:modified": "2024-03-04T00:26:17.162Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Dylange04",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dylan Lange"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Dylange04/courses/main/HUMN100_SP-2024/congress_letter_exercise.xml?person_annotation_20240303192617162#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Dylange04/courses/main/HUMN100_SP-2024/congress_letter_exercise.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Dylange04/courses/main/HUMN100_SP-2024/congress_letter_exercise.xml?person_annotation_20240303192617162#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/closer/persName[6]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q6288447",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -1093,11 +1330,11 @@
 				as Congress shall open its doors to us in person.</p>
 			<closer><persName key="Elizabeth Cady Stanton" ref="http://www.wikidata.org/entity/Q465335" cert="high" type="real">Elizabeth Cady
 						Stanton</persName> 
-				<orgName key="Isabella Beecher Hooker" ref="http://www.wikidata.org/entity/Q13390410">Isabella Beecher Hooker</orgName> 
+				<persName key="Isabella Beecher Hooker" ref="http://www.wikidata.org/entity/Q13390410">Isabella Beecher Hooker</persName> 
 				<persName key="Bladen, Elizabeth S." ref="http://viaf.org/viaf/12041742/">Elizabeth S. Bladen</persName> 
-				Olympia Brown 
-				Susan B. Anthony 
-				Josephine S. Griffing 
+				<persName key="Olympia Brown" ref="http://www.wikidata.org/entity/Q7088941">Olympia Brown</persName> 
+				<persName key="Susan B. Anthony" ref="http://www.wikidata.org/entity/Q192245">Susan B. Anthony</persName> 
+				<persName key="Josephine Sophia White Griffing" ref="http://www.wikidata.org/entity/Q6288447">Josephine S. Griffing</persName> 
 				<placeName key="Hartford, Connecticut" ref="http://dbpedia.org/resource/Hartford,_Connecticut" cert="high">Hartford Conn.<precision match="@ref" precision="high"/></placeName> <date when="1871-12"><date when="1871-12" cert="high">Dec. 1871</date></date></closer>
 			</div>
 		</body>
